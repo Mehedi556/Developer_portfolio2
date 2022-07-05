@@ -1,61 +1,92 @@
-body{
-    margin:0;
-    padding:0;
-    font-family: 'Lato', sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
 }
-p{
-    color:#575757;
+p {
+  color: #575757;
 }
-h1{
-    color:#575757;
+h1 {
+  color: #575757;
+  font-size: 60px;
 }
-h1 span{
-    color:#FB934A;
+h1 span {
+  color: #fb934a;
 }
-h6 span{
-    color:#FB934A;
+h6 span {
+  color: #fb934a;
 }
-h6{
-    color:#575757;
+h6 {
+  color: #575757;
 }
-.first_section{
-    display:flex;
+.first_section {
+  display: flex;
 }
-.single_div{
-    width:40%;
-    padding-left:5%;
-    margin-top:50px;
-   
+.single_div {
+  width: 40%;
+  padding-left: 5%;
+  margin-top: 50px;
 }
-.single_div h1{
-   font-size: 60px;;
-   line-height: 50px;;
+.single_div h1 {
+  font-size: 60px;
+  line-height: 50px;
 }
-.single_div h6{
-    font-size: 20px;;
- }
-.order_class{
-    color:white;
-    background-image: linear-gradient(to right ,red , yellow);
-    padding:15px 40px;
-    text-decoration: none;font-weight:600;
-    border-radius: 50px;
-
+.single_div h6 {
+  font-size: 20px;
 }
-.back1{
-    position:relative;
-    width:550px;
-    left:-50px;
-    top:80px;
+.order_class {
+  color: white;
+  background-image: linear-gradient(to right, red, yellow);
+  padding: 15px 40px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 50px;
 }
-.back2{
-    position:absolute;
-    top:20px;
-    left:100px
+.back1 {
+  position: relative;
+  width: 550px;
+  left: -50px;
+  top: 80px;
 }
-.single_div_img{
-    position:relative;
-    width:45%;
-    padding-left:5%;
-    margin-top:50px
+.back2 {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+.single_div_img {
+  position: relative;
+  width: 45%;
+  padding-left: 5%;
+  margin-top: 50px;
+}
+/*-----end of section one ----------------------- */
+.second_section {
+  background-image: url(images/shapes/Frame58.jpg);
+  display: flex;
+  background-size: cover;
+  margin-top:90px;
+}
+.single_div_img .second_girl{
+    width: 70%;
+    height:105%;
+    padding-left: 10%;
+}
+.single_div2 {
+    width: 40%;
+    padding-left: 10%;
+    margin-top: 50px;
+  }
+  .single_div2 p{
+    font-size: 20px;
+    font-weight:bold;
+    margin-bottom:50px;
+}
+.contact_class{
+    color: white;
+  background-image: linear-gradient(to right, red, yellow);
+  padding: 15px 40px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 50px;
+  
 }
